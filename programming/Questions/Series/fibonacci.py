@@ -4,8 +4,9 @@
 
 prev1  = 0
 prev2 = 1
+
 print(prev1, end=" ")
-for i in range(3, 100+1):
+for i in range(3, 10+1):
   curr = prev1 + prev2
   prev2 = prev1
   prev1 = curr
